@@ -3,7 +3,7 @@
   "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.html",
+  "default": "dist/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel"
