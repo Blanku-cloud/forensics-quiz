@@ -1,10 +1,12 @@
 {
   "name": "forensics-quiz",
+  "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "quiz.js",
+  "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/elvenz1/forensics-quiz/issues"
   },
-  "homepage": "https://github.com/elvenz1/forensics-quiz#readme"
+  "homepage": "https://github.com/elvenz1/forensics-quiz#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  }
 }
